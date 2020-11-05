@@ -24,6 +24,7 @@ class Animal:
 
 # instantiate our class/ create and object
 
-# cat = Animal() # creaeting an object of Animal class
+cat = Animal() # creaeting an object of Animal class
+
 # cat as child has inherited everything from animal
-# print(cat.eat())
+print(cat.eat())

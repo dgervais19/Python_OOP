@@ -25,13 +25,13 @@ class Reptile(Animal):
 # lets create an object of our Reptile class to utilise the amazing functionalities of OOP
 reptile_object = Reptile()
 
-# # Lets also see if we can still print the inherited attributes from the parent class
-# print(reptile_object.eat())
-# print(reptile_object.breathe())
-# print(reptile_object.procreate())
-#
-# # Now lets look at the attributes from the current class
-# print(reptile_object.seek_heat())
-# print(reptile_object.hunt())
-# print(reptile_object.use_venom())
+# Lets also see if we can still print the inherited attributes from the parent class
+print(reptile_object.eat())
+print(reptile_object.breathe())
+print(reptile_object.procreate())
+
+# Now lets look at the attributes from the current class
+print(reptile_object.seek_heat())
+print(reptile_object.hunt())
+print(reptile_object.use_venom())
 
