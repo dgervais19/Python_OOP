@@ -151,3 +151,25 @@ print(python_object.digest_large_prey()) # getting an attribute from the python 
 ``__name__`` and ``__main__`` are used to check if the code is run from the current file/directly or from a different file thats imported
 * we will create 2 files and use ``__name__`` and ``__main__`` in both files and the outcome will show the difference.
 
+**Creating 'mod_1'**
+```
+# using __name__ and __main__
+
+print("This is mod_1 name -->" + __name__)
+
+def main():
+    return " From mod 1 function"
+   # pass # key word pass helps you to pass data without an error
+
+# Syntax if __name__ == "__main__":
+if __name__ == '__main__': # it checks whether the code is run from current file or not
+    main()
+```
+**Creating 'mod_2' and referring to 'mod_1'**
+```
+# This is mod_2 file
+
+import mod_1
+
+print("This is mod 2" + __name__)
+```
